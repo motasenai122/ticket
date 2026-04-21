@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 
+const SECRET_KEY = process.env.JWT_SECRET || 'helpdesk_secret_key_2024';
 
 function authMiddleware(req, res, next) {
     const authHeader = req.headers['authorization'];
