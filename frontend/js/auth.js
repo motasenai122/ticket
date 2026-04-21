@@ -1,3 +1,4 @@
+const API_URL = '/api';
 
 /**
  * Salva o token e dados do usuário no localStorage
